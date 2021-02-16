@@ -337,7 +337,7 @@ function App() {
               Besides running, I'm also an avid Muy Thai kickboxer.
               </p>
             <p>
-              When I'm not training, I'm usually at my apartment with my corgi dog named "Turtle". I've always had at least one Pembroke Welsg Corgi!
+              When I'm not training or coding, I'm usually at my apartment with my corgi dog named "Turtle". I've always had at least one Pembroke Welsh Corgi!
             </p>
             <p>My main goals for 2021:</p>
             <ul>
