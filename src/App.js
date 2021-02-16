@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 
+
 function App() {
   return (
     <Fragment>
@@ -75,10 +76,10 @@ function App() {
               <span class='text-primary'>Smith</span>
             </h1>
             <div class='subheading mb-5'>
-              Wilmington, NC 28403 · (910) 274-4925 ·
+              Charlotte, NC 28203 · (910) 274-4925 ·
               <a href='mailto:name@email.com'>teddysmithdev@gmail.com</a>
             </div>
-            <p class='lead mb-5'>Enthusiastic about all things technology.</p>
+            <p class='lead mb-5'>C# software developer with an entrepreneurial spirit.</p>
             <div class='social-icons'>
               <a href='https://github.com/teddysmithdev'>
                 <i class='fab fa-github'></i>
@@ -98,6 +99,24 @@ function App() {
         >
           <div class='w-100'>
             <h2 class='mb-5'>Projects</h2>
+
+            <div class='resume-item d-flex flex-column flex-md-row justify-content-between mb-5'>
+              <div class='resume-content'>
+                <h3 class='mb-0'>RunMatch</h3>
+                <div class='subheading mb-3'>
+                  Online running platform.
+                </div>
+                <p>
+                Startup that allows users to find local runners, start running clubs, and/or schedule running events. Users are incentivized to invite and run with others via real-time chat, invitations, and following/like features.
+                </p>
+                <a href='https://runmatchv3.herokuapp.com/'>
+                  <i class='fas fa-link'></i>
+                </a>
+                <a href='https://github.com/teddysmithdev/runmatch'>
+                  <i class='fab fa-github ml-3'></i>
+                </a>
+              </div>
+            </div>
 
             <div class='resume-item d-flex flex-column flex-md-row justify-content-between mb-5'>
               <div class='resume-content'>
@@ -285,19 +304,19 @@ function App() {
             <ul class='fa-ul mb-0'>
               <li>
                 <i class='fa-li fa fa-check'></i>
-                React Front-End Development
+                Angular, React
               </li>
               <li>
                 <i class='fa-li fa fa-check'></i>
-                Django, Flask, and Express Back-End
+                ASP.NET Web API, Django, Flask, and Express
               </li>
               <li>
                 <i class='fa-li fa fa-check'></i>
-                Linux
+                SEO, Video Marketing & keyword research
               </li>
               <li>
                 <i class='fa-li fa fa-check'></i>
-                Networking
+                CCENT Networking
               </li>
             </ul>
           </div>
@@ -312,19 +331,18 @@ function App() {
           <div class='w-100'>
             <h2 class='mb-5'>Bio</h2>
             <p>
-              Apart from development, I spend nearly all of my spare time long
-              distance running.
+              My biggest passion by far is running with my favorite type of race being a 5-10K. I also host a running club. <a href="https://www.meetup.com/South-End-Running-Club/">South End Running Club</a>
             </p>
-            <p>My main goals for 2020:</p>
+            <p>
+              Besides running, I'm also an avid Muy Thai kickboxer.
+              </p>
+            <p>
+              When I'm not training, I'm usually at my apartment with my corgi dog named "Turtle". I've always had at least one Pembroke Welsg Corgi!
+            </p>
+            <p>My main goals for 2021:</p>
             <ul>
               <li>
-                Refactor an old MERN app called "Phone Spider" to produce an
-                actual income via a subscription or credit-based system
-              </li>
-              <li>
-                Create a React Native app that generates users and be in a
-                position where I am forced to tackle issues of scaling, testing,
-                and clean-code.
+                Get 1,000 active users for RunMatch
               </li>
             </ul>
 
@@ -343,7 +361,7 @@ function App() {
             <ul class='fa-ul mb-0'>
               <li>
                 <i class='fa-li fa fa-trophy text-warning'></i>
-                CISCO CCENT (Expired)
+                CISCO CCENT
               </li>
             </ul>
           </div>
